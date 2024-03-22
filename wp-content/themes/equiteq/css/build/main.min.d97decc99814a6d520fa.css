@@ -291,19 +291,19 @@ footer {
       height: 30px;
       transition: all .1s; }
       footer .socials ul li a.youtube {
-        background: url("/wp-content/themes/equiteq/images/icon_youtube.png") no-repeat; }
+        background: url("/equiteq/wp-content/themes/equiteq/images/icon_youtube.png") no-repeat; }
         footer .socials ul li a.youtube:hover {
           background-position: 0px -30px; }
       footer .socials ul li a.twitter {
-        background: url("/wp-content/themes/equiteq/images/icon_twitter.png") no-repeat; }
+        background: url("/equiteq/wp-content/themes/equiteq/images/icon_twitter.png") no-repeat; }
         footer .socials ul li a.twitter:hover {
           background-position: 0px -30px; }
       footer .socials ul li a.slideshare {
-        background: url("/wp-content/themes/equiteq/images/icon_slideshare.png") no-repeat; }
+        background: url("/equiteq/wp-content/themes/equiteq/images/icon_slideshare.png") no-repeat; }
         footer .socials ul li a.slideshare:hover {
           background-position: 0px -30px; }
       footer .socials ul li a.linkedin {
-        background: url("/wp-content/themes/equiteq/images/icon_linkedin.png") no-repeat; }
+        background: url("/equiteq/wp-content/themes/equiteq/images/icon_linkedin.png") no-repeat; }
         footer .socials ul li a.linkedin:hover {
           background-position: 0px -30px; }
   footer .socials li:first-child {
@@ -710,7 +710,7 @@ section {
   left: 50%;
   top: -30px;
   margin-left: -30px;
-  background-image: url("/wp-content/themes/equiteq/images/arrow-up.png");
+  background-image: url("/equiteq/wp-content/themes/equiteq/images/arrow-up.png");
   background-repeat: no-repeat;
   background-size: contain; }
 
@@ -733,7 +733,7 @@ section {
   font-family: "VerbExtrabold", helvetica, arial, sans-serif;
   color: #FFFFFF !important;
   background-color: #000000;
-  background-image: url("/wp-content/themes/equiteq/images/arrow-left.png");
+  background-image: url("/equiteq/wp-content/themes/equiteq/images/arrow-left.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center right;

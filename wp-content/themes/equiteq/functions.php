@@ -24,7 +24,9 @@ function custom_theme_assets()
 {
     $cssFilePath = glob(get_template_directory() . '/css/build/main.min.*');
     $cssFileURI = get_template_directory_uri() . '/css/build/' . basename($cssFilePath[0]);
+    $cssFileURI2 = get_template_directory_uri() . '/css/new.css';
     wp_enqueue_style('site_main_css', $cssFileURI);
+    wp_enqueue_style('site_new_css', $cssFileURI2);
     // wp_enqueue_style('style', get_stylesheet_uri());
     $jsFilePath = glob(get_template_directory() . '/js/build/app.min.*.js');
     $jsFileURI = get_template_directory_uri() . '/js/build/' . basename($jsFilePath[0]);
@@ -496,3 +498,12 @@ function capital_meta_title($title)
 }
 
 add_filter('wpseo_title', 'capital_meta_title');
+
+
+// enable SVG uploads
+function add_svg_to_upload_mimes( $upload_mimes ) {
+    $upload_mimes['svg'] = 'image/svg+xml';
+    $upload_mimes['svgz'] = 'image/svg+xml';
+    return $upload_mimes;
+}
+add_filter( 'upload_mimes', 'add_svg_to_upload_mimes', 10, 1 );
